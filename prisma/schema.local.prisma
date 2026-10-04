@@ -1,0 +1,100 @@
+// FC APG 1921 — LOCAL SANDBOX MIRROR of prisma/schema.prisma (SQLite).
+// Used only in the local dev sandbox where no PostgreSQL server exists.
+// Models MUST stay identical to prisma/schema.prisma.
+// Usage: bun run db:push:local
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+/// Admin-overridable site copy. Fallback lives in src/locales/*.json.
+model SiteText {
+  id        String   @id @default(cuid())
+  key       String // e.g. "hero.titleLine1"
+  locale    String // fr | en | de | pt | es | it
+  value     String
+  updatedAt DateTime @updatedAt
+
+  @@unique([key, locale])
+  @@index([locale])
+}
+
+/// Gallery photos + reusable media picked by the admin (banners, covers…).
+model GalleryImage {
+  id        String   @id @default(cuid())
+  url       String
+  title     String   @default("")
+  category  String   @default("clube") // match | training | community | clube
+  sortOrder Int      @default(0)
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+
+  @@index([active, sortOrder])
+}
+
+/// News / blog articles managed from the admin panel.
+model NewsPost {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  excerpt     String   @default("")
+  content     String // markdown (GFM): headings, lists, tables, FAQ
+  cover       String   @default("")
+  tag         String   @default("clube") // match-day | mercato | club | communaute | regional
+  sourceUrl   String   @default("") // credit link for regional news
+  keywords    String   @default("") // comma-separated SEO keywords
+  author      String   @default("FC APG 1921") // E-E-A-T author line
+  faq         String   @default("") // JSON [{q,a}] → FAQPage schema + FAQ section
+  published   Boolean  @default(true)
+  publishedAt DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([published, createdAt])
+}
+
+/// Daily visit counter (one row per day).
+model Visit {
+  id    String @id @default(cuid())
+  day   String @unique // YYYY-MM-DD (Europe/Zurich)
+  count Int    @default(0)
+}
+
+/// Squad players shown as modern cards on the home page.
+model Player {
+  id        String   @id @default(cuid())
+  name      String
+  position  String   @default("mf") // gk | df | mf | fw
+  number    Int? // shirt number (optional)
+  photoUrl  String   @default("") // empty → styled placeholder
+  sortOrder Int      @default(0)
+  visible   Boolean  @default(true)
+  createdAt DateTime @default(now())
+
+  @@index([visible, sortOrder])
+}
+
+/// Key/value site configuration edited in the admin panel.
+model Setting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+/// Uploaded media stored IN THE DATABASE (base64 WebP) — serverless-safe
+/// (Vercel has no writable filesystem). Served by /api/media/[id].
+model Media {
+  id        String   @id @default(cuid())
+  filename  String   @default("")
+  mime      String   @default("image/webp")
+  size      Int      @default(0)
+  data      String // base64 payload
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}

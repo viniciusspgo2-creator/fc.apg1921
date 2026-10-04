@@ -1,0 +1,268 @@
+/* ============================================================
+   FC APG 1921 — Brand design tokens (brief §3.2 / §3.5)
+   The ONLY colors allowed on the site. Tailwind utilities are
+   generated from these in globals.css (@theme).
+   ============================================================ */
+
+:root {
+  --apg-blue: #0052a8;
+  --apg-blue-deep: #002b5c;
+  --apg-yellow: #f8e010;
+  --apg-green: #03a75e;
+  --apg-red: #df0629;
+  --ink: #070a12;
+  --paper: #ffffff;
+  --paper-soft: #f4f6fa;
+
+  /* Diamond-shield DNA: signature angle + easing for every motion */
+  --apg-diagonal: 18deg;
+  --ease-apg: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* ------------------------------------------------------------
+   Diamond motif (§3.5) — kept for DECORATIVE solid shapes only
+   (never for clipping photos or content cards).
+   ------------------------------------------------------------ */
+.apg-clip-diamond {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* ------------------------------------------------------------
+   Editorial frames (2026 refresh) — the sophisticated replacement
+   for cut-corner clips: photos stay WHOLE, framed like gallery
+   prints with a floating hairline and/or an offset accent line.
+   ------------------------------------------------------------ */
+/* Floating hairline around a photo ("gallery print" look). */
+.apg-frame {
+  position: relative;
+}
+.apg-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  outline: 1px solid rgb(255 255 255 / 0.18);
+  outline-offset: 10px;
+  pointer-events: none;
+}
+/* Ink hairline variant for light backgrounds. */
+.apg-frame-ink::after {
+  outline-color: rgb(7 10 18 / 0.14);
+}
+/* Offset accent frame behind the photo (stacked-print effect).
+   The photo itself must be a child with relative z-[1]. */
+.apg-frame-accent {
+  position: relative;
+}
+.apg-frame-accent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translate(14px, 14px);
+  border: 2px solid var(--apg-yellow);
+  pointer-events: none;
+}
+/* Blue accent variant for light backgrounds. */
+.apg-frame-accent-ink::before {
+  border-color: rgb(0 82 168 / 0.4);
+}
+
+/* ------------------------------------------------------------
+   Film grain — subtle texture for dark sections (§14 anti-flat).
+   Uses a tiny pre-rasterized noise tile (public/images/noise.png)
+   instead of feTurbulence: cached once by the compositor, no
+   per-pixel filter cost on low-end devices.
+   ------------------------------------------------------------ */
+.apg-grain {
+  position: relative;
+  isolation: isolate;
+}
+.apg-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: url("/images/noise.png");
+  background-repeat: repeat;
+}
+
+/* ------------------------------------------------------------
+   Diamond lattice — repeating crest silhouette at 3–5% opacity
+   ------------------------------------------------------------ */
+.apg-diamonds {
+  background-image:
+    repeating-linear-gradient(
+      60deg,
+      rgb(248 224 16 / 0.045) 0 1px,
+      transparent 1px 56px
+    ),
+    repeating-linear-gradient(
+      -60deg,
+      rgb(248 224 16 / 0.045) 0 1px,
+      transparent 1px 56px
+    );
+}
+.apg-diamonds-light {
+  background-image:
+    repeating-linear-gradient(
+      60deg,
+      rgb(0 82 168 / 0.05) 0 1px,
+      transparent 1px 56px
+    ),
+    repeating-linear-gradient(
+      -60deg,
+      rgb(0 82 168 / 0.05) 0 1px,
+      transparent 1px 56px
+    );
+}
+
+/* ------------------------------------------------------------
+   Signature motion keyframes (used sparingly — one hero per
+   viewport, cf. §11). All disabled under reduced motion.
+   ------------------------------------------------------------ */
+@keyframes apg-glow-pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.75;
+  }
+}
+/* Opacity-only pulse: compositor-friendly (no per-frame re-raster). */
+.apg-glow {
+  animation: apg-glow-pulse 4.5s ease-in-out infinite;
+  will-change: opacity;
+}
+
+@keyframes apg-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+.apg-bounce {
+  animation: apg-bounce 1.6s var(--ease-apg) infinite;
+}
+
+/* ------------------------------------------------------------
+   Glass morphism — "next match" widget & overlays (§9.1)
+   ------------------------------------------------------------ */
+.apg-glass {
+  background: rgb(255 255 255 / 0.07);
+  border: 1px solid rgb(255 255 255 / 0.14);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+/* ------------------------------------------------------------
+   Sponsor marquee (§9.1) — GPU-friendly transform loop
+   ------------------------------------------------------------ */
+@keyframes apg-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.apg-marquee-track {
+  animation: apg-marquee 32s linear infinite;
+  will-change: transform;
+}
+.apg-marquee:hover .apg-marquee-track {
+  animation-play-state: paused;
+}
+
+/* ------------------------------------------------------------
+   Holographic sheen — feature cards (§11)
+   Driven by --mx / --my CSS vars updated on pointermove.
+   ------------------------------------------------------------ */
+.apg-holo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: radial-gradient(
+    420px circle at var(--mx, 50%) var(--my, 50%),
+    rgb(248 224 16 / 0.22),
+    rgb(0 82 168 / 0.14) 45%,
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.35s var(--ease-apg);
+}
+.apg-holo:hover::before {
+  opacity: 1;
+}
+
+/* ------------------------------------------------------------
+   Custom scrollbar for long lists (match center, gallery)
+   ------------------------------------------------------------ */
+.apg-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(0 82 168 / 0.45) transparent;
+}
+.apg-scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.apg-scroll::-webkit-scrollbar-thumb {
+  background: rgb(0 82 168 / 0.45);
+  border-radius: 0;
+}
+.apg-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgb(0 82 168 / 0.7);
+}
+.apg-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ------------------------------------------------------------
+   Base details
+   ------------------------------------------------------------ */
+::selection {
+  background: var(--apg-yellow);
+  color: var(--ink);
+}
+
+.apg-focus:focus-visible {
+  outline: 2px solid var(--apg-yellow);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .apg-glow,
+  .apg-bounce,
+  .apg-marquee-track {
+    animation: none;
+  }
+}
+
+/* ------------------------------------------------------------
+ * Dark-styled OSM map (no API key) — CSS filter on tiles.
+ * ------------------------------------------------------------ */
+.apg-map-dark .leaflet-tile {
+  filter: invert(1) hue-rotate(190deg) brightness(0.85) contrast(0.92) saturate(0.35);
+}
+.apg-map-dark .leaflet-tile-pane {
+  background: var(--apg-ink, #070a12);
+}
+.apg-map-dark .leaflet-container {
+  background: #0b111c;
+}
+.apg-map-dark .leaflet-control-attribution {
+  background: rgba(7, 10, 18, 0.75);
+  color: rgba(255, 255, 255, 0.55);
+}
+.apg-map-dark .leaflet-control-attribution a {
+  color: rgba(248, 224, 16, 0.8);
+}
+.apg-map-dark .leaflet-popup-content-wrapper {
+  border-radius: 0;
+}

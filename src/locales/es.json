@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "siteName": "FC APG 1921",
+    "title": "FC Association des Portugais de Genève — Desde 1921",
+    "description": "Sitio oficial del FC APG 1921. Club de fútbol portugués en Ginebra desde 01.07.1921: entrenamientos, estadio, noticias del fútbol ginebrino y contacto directo.",
+    "keywords": "club de fútbol Ginebra, FC APG 1921, fútbol portugués Ginebra, fútbol amateur Suiza, ACGF, club deportivo Ginebra"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "El club",
+    "gallery": "Galería",
+    "blog": "Noticias",
+    "contact": "Contacto"
+  },
+  "shell": {
+    "menuOpen": "Abrir el menú",
+    "menuClose": "Cerrar el menú",
+    "join": "Únete a nosotros",
+    "skipToContent": "Ir al contenido principal",
+    "language": "Idioma"
+  },
+  "hero": {
+    "label": "Ginebra · Desde 1921",
+    "titleLine1": "UNA HISTORIA.",
+    "titleLine2": "UNA PASIÓN.",
+    "subtitle": "FC Association des Portugais de Genève. Un club de barrio, tres equipos, una sola familia — desde el 01.07.1921.",
+    "ctaClub": "Descubrir el club",
+    "ctaContact": "Contactarnos",
+    "scroll": "Desplazar",
+    "imageAlt": "Jugador del FC APG 1921 con camiseta amarilla, listo para disparar a puerta"
+  },
+  "match": {
+    "nextMatch": {
+      "label": "Próximo partido",
+      "kickoff": "Saque inicial",
+      "vs": "VS",
+      "home": "En casa",
+      "away": "Fuera",
+      "opponent": "Rival"
+    }
+  },
+  "weather": {
+    "inGeneva": "Tiempo en Ginebra",
+    "clear": "Cielo despejado",
+    "partly": "Parcialmente nublado",
+    "cloudy": "Nublado",
+    "fog": "Niebla",
+    "drizzle": "Llovizna",
+    "rain": "Lluvia",
+    "snow": "Nieve",
+    "storm": "Tormenta"
+  },
+  "home": {
+    "intro": {
+      "kicker": "Bienvenido",
+      "title": "Bienvenido al sitio oficial del APG",
+      "text": "Desde el 01.07.1921 se escribe una historia. Generaciones, recuerdos, victorias, emociones… y una misma pasión: el fútbol. Hoy, una nueva página empieza aquí. Síguenos para descubrir la vida del club, nuestros equipos, nuestros partidos, nuestros resultados y todos los momentos que hacen nuestra historia.",
+      "signature": "APG — Desde 1921.",
+      "cta": "Nuestra historia"
+    },
+    "teamPhoto": {
+      "kicker": "El equipo",
+      "title": "Once sobre el campo, todos detrás",
+      "text": "Primer equipo, veteranos +40 y +50: los colores amarillo y azul se llevan en todas las generaciones. Las listas oficiales están en camino — las fotos ya cuentan quiénes somos.",
+      "cta": "Abrir la galería",
+      "imageAlt": "El equipo del FC APG 1921 reunido frente al escudo"
+    },
+    "players": {
+      "kicker": "La plantilla",
+      "title": "Los jugadores",
+      "subtitle": "Los rostros del APG 1921: foto, número, posición — el equipo que viste los colores cada fin de semana.",
+      "join": "¿Quieres jugar?",
+      "placeholderName": "Por confirmar",
+      "photoAlt": "Foto de {name}",
+      "positions": {
+        "gk": "Portero",
+        "df": "Defensa",
+        "mf": "Centrocampista",
+        "fw": "Delantero"
+      },
+      "prevSlide": "Jugadores anteriores",
+      "nextSlide": "Siguientes jugadores",
+      "swipeHint": "Desliza"
+    },
+    "practical": {
+      "kicker": "Información práctica",
+      "title": "Todo lo que necesitas saber",
+      "trainingTitle": "Entrenamientos",
+      "venueTitle": "Estadio",
+      "contactTitle": "Contacto",
+      "joinTitle": "Únete al club",
+      "joinText": "¿Quieres jugar, ayudar o animar? Pásate por un entrenamiento o escríbenos por WhatsApp.",
+      "note": "Horarios confirmados por la secretaría del club."
+    },
+    "membership": {
+      "title": "Llevar los colores",
+      "text": "Jugador, voluntario, aficionado o socio: hay un lugar para ti en la familia APG.",
+      "cta": "Escríbenos"
+    },
+    "sponsor": {
+      "kicker": "Patrocinio",
+      "title": "¿Quieres apoyar al club?",
+      "text": "¿Su marca en la camiseta amarilla y azul, a pie de campo o en nuestras redes? Hable con nuestro equipo y encuentre la mejor forma de apoyar al FC APG 1921.",
+      "cta": "Hablar con el equipo"
+    },
+    "news": {
+      "label": "Noticias",
+      "title": "El fútbol ginebrino, semana tras semana",
+      "readMore": "Leer más",
+      "all": "Todas las noticias"
+    }
+  },
+  "about": {
+    "label": "El club",
+    "title": "Desde 1921, una familia",
+    "subtitle": "Más de un siglo de fútbol portugués en Ginebra. La historia continúa — contigo.",
+    "today": {
+      "label": "Hoy",
+      "title": "Un club vivo, en el corazón de Ginebra",
+      "text1": "El FC APG 1921 forma parte del panorama deportivo ginebrino: tres equipos sénior —el principal en la 4ª liga ACGF y dos de veteranos +40 y +50— visten el amarillo y azul en los campos del cantón.",
+      "text2": "Pero el club también son los voluntarios que preparan el terreno, las familias en los bandas del campo y los socios locales que apoyan nuestros colores. Una asociación sin ánimo de lucro impulsada por la comunidad portuguesa de Ginebra y sus amigos.",
+      "imageAlt": "El escudo del FC APG 1921 frente al equipo"
+    },
+    "valuesTitle": "Nuestros valores",
+    "values": {
+      "tradition": {
+        "title": "Tradición",
+        "text": "Desde 1921 cambia la camiseta, el espíritu sigue."
+      },
+      "communaute": {
+        "title": "Comunidad",
+        "text": "Un club, una familia: del campo a la taberna."
+      },
+      "passion": {
+        "title": "Pasión",
+        "text": "Jugamos y animamos con el corazón."
+      },
+      "respect": {
+        "title": "Respeto",
+        "text": "Árbitros, rivales, socios: el juego limpio primero."
+      }
+    },
+    "culturalTitle": "Portugal × Ginebra",
+    "culturalText": "Nacidos entre dos culturas, jugamos con la saudade portuguesa y la precisión ginebrina. El club une generaciones: nietos de portugueses, vecinos de Vessy, amantes del juego."
+  },
+  "gallery": {
+    "label": "Galería",
+    "title": "El club en imágenes",
+    "subtitle": "Goles, paradas, entrenamientos y vida del club — el ambiente APG en fotos.",
+    "note": "Fotos ilustrativas de fútbol amateur.",
+    "filters": {
+      "all": "Todo",
+      "match": "Partidos",
+      "training": "Entrenamientos",
+      "community": "Comunidad",
+      "clube": "Club"
+    },
+    "lightbox": {
+      "open": "Ampliar la imagen",
+      "close": "Cerrar",
+      "prev": "Imagen anterior",
+      "next": "Imagen siguiente",
+      "counter": "{current} / {total}"
+    }
+  },
+  "blog": {
+    "label": "Noticias",
+    "title": "Noticias del club y del fútbol regional",
+    "subtitle": "Copa de Ginebra, campeonatos ACGF, vida del club: lo esencial del fútbol ginebrino, con fuentes oficiales.",
+    "tags": {
+      "all": "Todo",
+      "match-day": "Día de partido",
+      "mercato": "Mercado",
+      "club": "Club",
+      "communaute": "Comunidad",
+      "regional": "Regional"
+    },
+    "readMore": "Leer más",
+    "minRead": "{minutes} min de lectura",
+    "backToBlog": "Todas las noticias",
+    "source": "Fuente",
+    "authorBox": "Sobre el autor",
+    "authorBio": "Artículo oficial del club, redactado por la secretaría del FC APG 1921 — Association des Portugais de Genève, fundado el 1 de julio de 1921.",
+    "publishedOn": "Publicado el",
+    "updatedOn": "actualizado el",
+    "authorCta": "Escríbenos"
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos de fútbol",
+    "subtitle": "¿Una pregunta, una inscripción, una colaboración? Tu mensaje llega directamente al WhatsApp del club.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanoslo todo…",
+      "send": "Enviar por WhatsApp",
+      "errors": {
+        "name": "Indica tu nombre.",
+        "email": "Introduce un email válido.",
+        "message": "Escribe al menos 10 caracteres."
+      },
+      "subjects": {
+        "play": "Jugar en el club",
+        "sponsorship": "Patrocinio / Colaboración",
+        "press": "Prensa & Medios",
+        "info": "Información general"
+      }
+    },
+    "whatsapp": {
+      "title": "WhatsApp directo",
+      "text": "El formulario abre una conversación de WhatsApp prellenada. No se guarda ningún dato en el sitio.",
+      "cta": "Abrir WhatsApp"
+    },
+    "info": {
+      "addressTitle": "Estadio",
+      "emailTitle": "Email",
+      "instagramTitle": "Instagram",
+      "trainingTitle": "Entrenamientos",
+      "mapTitle": "Cómo llegar",
+      "itinerary": "Itinerario"
+    },
+    "faq": {
+      "kicker": "Preguntas frecuentes",
+      "title": "Quizás te preguntes",
+      "items": {
+        "q1": "¿Cómo unirse al FC APG 1921?",
+        "a1": "Ven a un entrenamiento en el Centre Sportif de Vessy o escríbenos por WhatsApp: puedes probar en cualquier momento de la temporada.",
+        "q2": "¿Cuándo son los entrenamientos?",
+        "a2": "Martes y jueves a las 19:30, viernes a las 20:00 en el Centre Sportif de Vessy — los horarios actualizados están en esta página.",
+        "q3": "¿Hay que ser portugués para jugar?",
+        "a3": "No. El club nació en la comunidad portuguesa de Ginebra y recibe a jugadores de todas las nacionalidades.",
+        "q4": "¿Dónde y cuándo jugáis los partidos?",
+        "a4": "En casa, en el Centre Sportif de Vessy, generalmente los domingos por la mañana, en el campeonato de la asociación regional de fútbol de Ginebra (ACGF)."
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacidad (nLPD)",
+      "updated": "Última actualización: {date}",
+      "s1t": "Datos tratados",
+      "s1b": "Este sitio no instala cookies publicitarias ni vende datos. El formulario de contacto abre una conversación de WhatsApp prellenada: tu mensaje nunca llega a nuestros servidores. Un simple contador de visitas anónimo, sin direcciones IP, mide la afluencia del sitio.",
+      "s2t": "Servicios de terceros",
+      "s2b": "El tiempo mostrado proviene de Open-Meteo y el mapa de OpenStreetMap. Estos servicios solo reciben los datos técnicos necesarios para la petición (incluida la dirección IP).",
+      "s3t": "Tus derechos",
+      "s3b": "Conforme a la ley suiza de protección de datos (nLPD), puedes solicitar el acceso, la rectificación o la supresión de tus datos escribiendo al email del club.",
+      "s4t": "Contacto",
+      "s4b": "FC Association des Portugais de Genève — contact@fc-apg.ch."
+    },
+    "mentions": {
+      "title": "Aviso legal",
+      "updated": "Última actualización: {date}",
+      "s1t": "Editor",
+      "s1b": "FC Association des Portugais de Genève (FC APG 1921), Ginebra, Suiza. Asociación sin ánimo de lucro regida por el Código Civil suizo.",
+      "s2t": "Responsabilidad",
+      "s2b": "Las noticias regionales se resumen a partir de las fuentes oficiales citadas en cada artículo (ACGF, ASF, etc.). Los horarios e información práctica son confirmados por la secretaría del club.",
+      "s3t": "Propiedad intelectual",
+      "s3b": "El escudo, el nombre y los colores del club son propiedad de la asociación. Toda reproducción requiere acuerdo previo por escrito."
+    }
+  },
+  "notFound": {
+    "title": "¡Fuera de juego!",
+    "text": "Esta página no existe (o ya no existe). Vuelve al campo, el partido continúa.",
+    "cta": "Volver al inicio"
+  },
+  "cookies": {
+    "text": "Solo mediciones anónimas de audiencia, nunca publicidad.",
+    "accept": "OK",
+    "decline": "No, gracias",
+    "policy": "Saber más"
+  },
+  "common": {
+    "soon": "Pronto",
+    "mockNotice": "Contenido ficticio a la espera de información oficial.",
+    "langLabel": "Idioma",
+    "close": "Cerrar",
+    "loading": "Cargando…",
+    "backToTop": "Volver arriba",
+    "whatsapp": "Escribir al club por WhatsApp",
+    "whatsappMock": "Número de WhatsApp aún sin configurar"
+  },
+  "footer": {
+    "tagline": "Una historia. Una pasión. Desde 1921.",
+    "quickLinks": "Navegación",
+    "languages": "Idiomas",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados.",
+    "legal": "Aviso legal",
+    "privacy": "Privacidad (nLPD)"
+  }
+}

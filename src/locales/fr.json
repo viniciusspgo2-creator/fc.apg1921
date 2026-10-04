@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "siteName": "FC APG 1921",
+    "title": "FC Association des Portugais de Genève — Depuis 1921",
+    "description": "Site officiel du FC APG 1921. Club de football portugais à Genève depuis le 01.07.1921 : entraînements, stade, actualités du football genevois et contact direct.",
+    "keywords": "club de football Genève, FC APG 1921, Association des Portugais de Genève, football portugais Genève, ACGF, foot amateur Genève, club sportif genevois, Centre Sportif de Vessy"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Le club",
+    "gallery": "Galerie",
+    "blog": "Actualités",
+    "contact": "Contact"
+  },
+  "shell": {
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "join": "Nous rejoindre",
+    "skipToContent": "Aller au contenu principal",
+    "language": "Langue"
+  },
+  "hero": {
+    "label": "Genève · Depuis 1921",
+    "titleLine1": "UNE HISTOIRE.",
+    "titleLine2": "UNE PASSION.",
+    "subtitle": "FC Association des Portugais de Genève. Un club de quartier, trois équipes, une même famille — depuis le 01.07.1921.",
+    "ctaClub": "Découvrir le club",
+    "ctaContact": "Nous contacter",
+    "scroll": "Défiler",
+    "imageAlt": "Joueur du FC APG 1921 en maillot jaune, prêt à frapper au but"
+  },
+  "match": {
+    "nextMatch": {
+      "label": "Prochain match",
+      "kickoff": "Coup d'envoi",
+      "vs": "VS",
+      "home": "À domicile",
+      "away": "À l'extérieur",
+      "opponent": "Adversaire"
+    }
+  },
+  "weather": {
+    "inGeneva": "Météo à Genève",
+    "clear": "Ciel dégagé",
+    "partly": "Éclaircies",
+    "cloudy": "Nuageux",
+    "fog": "Brouillard",
+    "drizzle": "Bruine",
+    "rain": "Pluie",
+    "snow": "Neige",
+    "storm": "Orage"
+  },
+  "home": {
+    "intro": {
+      "kicker": "Bienvenue",
+      "title": "Bienvenue sur le site officiel de l'APG",
+      "text": "Depuis le 01.07.1921, une histoire s'écrit. Des générations, des souvenirs, des victoires, des émotions… et une même passion : le football. Aujourd'hui, une nouvelle page commence ici. Suivez-nous pour découvrir la vie du club, nos équipes, nos matchs, nos résultats et tous les moments qui font notre histoire.",
+      "signature": "APG — Depuis 1921.",
+      "cta": "Notre histoire"
+    },
+    "teamPhoto": {
+      "kicker": "L'équipe",
+      "title": "Onze sur le terrain, tous derrière",
+      "text": "Équipe principale, vétérans +40 et +50 : les couleurs jaune et bleu se portent à toutes les générations. Les listes officielles arrivent — les photos, elles, racontent déjà qui nous sommes.",
+      "cta": "Voir la galerie",
+      "imageAlt": "L'équipe du FC APG 1921 réunie devant l'écusson"
+    },
+    "players": {
+      "kicker": "L'effectif",
+      "title": "Les joueurs du club",
+      "subtitle": "Le visage de l'APG 1921 : la photo, le numéro, la position — l'équipe qui porte les couleurs chaque week-end.",
+      "join": "Tu veux jouer ?",
+      "placeholderName": "À confirmer",
+      "photoAlt": "Photo de {name}",
+      "positions": {
+        "gk": "Gardien",
+        "df": "Défense",
+        "mf": "Milieu",
+        "fw": "Attaque"
+      },
+      "prevSlide": "Joueurs précédents",
+      "nextSlide": "Joueurs suivants",
+      "swipeHint": "Défilez"
+    },
+    "practical": {
+      "kicker": "Infos pratiques",
+      "title": "Tout ce qu'il faut savoir",
+      "trainingTitle": "Entraînements",
+      "venueTitle": "Stade",
+      "contactTitle": "Contact",
+      "joinTitle": "Rejoindre le club",
+      "joinText": "Tu veux jouer, aider ou supporter ? Passe à l'entraînement ou écris-nous sur WhatsApp.",
+      "note": "Horaires confirmés par le secrétariat du club."
+    },
+    "membership": {
+      "title": "Porter les couleurs",
+      "text": "Joueur, bénévole, supporter ou partenaire : il y a une place pour toi dans la famille APG.",
+      "cta": "Nous écrire"
+    },
+    "sponsor": {
+      "kicker": "Partenaires",
+      "title": "Envie d'appuyer le club ?",
+      "text": "Votre marque sur le maillot jaune et bleu, au bord du terrain ou sur nos réseaux ? Parlons-en : notre équipe vous trouve la formule qui correspond à votre entreprise.",
+      "cta": "Parler à l'équipe"
+    },
+    "news": {
+      "label": "Actualités",
+      "title": "Le football genevois, semaine après semaine",
+      "readMore": "Lire la suite",
+      "all": "Toutes les actualités"
+    }
+  },
+  "about": {
+    "label": "Le club",
+    "title": "Depuis 1921, une famille",
+    "subtitle": "Plus d'un siècle de football portugais à Genève. L'histoire continue — avec toi.",
+    "today": {
+      "label": "Aujourd'hui",
+      "title": "Un club vivant, au cœur de Genève",
+      "text1": "Le FC APG 1921 fait partie du paysage sportif genevois : trois équipes senior — l'équipe principale en 4ème ligue ACGF, et deux équipes vétérans +40 et +50 — portent le maillot jaune et bleu sur les terrains du canton.",
+      "text2": "Mais le club, c'est aussi les bénévoles qui préparent le terrain, les familles qui occupent les bords de pelouse et les partenaires locaux qui croisent nos couleurs. Une association à but non lucratif, animée par la communauté portugaise de Genève et ses amis.",
+      "imageAlt": "L'écusson du FC APG 1921 devant l'équipe"
+    },
+    "valuesTitle": "Nos valeurs",
+    "values": {
+      "tradition": {
+        "title": "Tradition",
+        "text": "Depuis 1921, le maillot change, l'esprit reste."
+      },
+      "communaute": {
+        "title": "Communauté",
+        "text": "Un club, une famille : du terrain à la taberna."
+      },
+      "passion": {
+        "title": "Passion",
+        "text": "On joue et on supporte avec le cœur."
+      },
+      "respect": {
+        "title": "Respect",
+        "text": "Arbitres, adversaires, partenaires : le fair-play d'abord."
+      }
+    },
+    "culturalTitle": "Portugal × Genève",
+    "culturalText": "Nés entre deux cultures, nous jouons avec la saudade portugaise et la précision genevoise. Le club relie les générations : petits-enfants de Portugais, voisins de Vessy, amoureux du jeu."
+  },
+  "gallery": {
+    "label": "Galerie",
+    "title": "Le club en images",
+    "subtitle": "Buts, arrêts, entraînements et vie du club — l'ambiance APG en photos.",
+    "note": "Photos illustratives de football amateur.",
+    "filters": {
+      "all": "Tout",
+      "match": "Matchs",
+      "training": "Entraînements",
+      "community": "Comunidade",
+      "clube": "Clube"
+    },
+    "lightbox": {
+      "open": "Agrandir l'image",
+      "close": "Fermer",
+      "prev": "Image précédente",
+      "next": "Image suivante",
+      "counter": "{current} / {total}"
+    }
+  },
+  "blog": {
+    "label": "Actualités",
+    "title": "Nouvelles du club et du football régional",
+    "subtitle": "Coupe genevoise, championnats ACGF, vie du club : l'essentiel du football genevois, avec ses sources officielles.",
+    "tags": {
+      "all": "Tout",
+      "match-day": "Match Day",
+      "mercato": "Mercato",
+      "club": "Club",
+      "communaute": "Communauté",
+      "regional": "Régional"
+    },
+    "readMore": "Lire la suite",
+    "minRead": "{minutes} min de lecture",
+    "backToBlog": "Toutes les actualités",
+    "source": "Source",
+    "authorBox": "À propos de l'auteur",
+    "authorBio": "Article officiel du club, rédigé par le secrétariat du FC APG 1921 — Association des Portugais de Genève, fondé le 1er juillet 1921.",
+    "publishedOn": "Publié le",
+    "updatedOn": "mis à jour le",
+    "authorCta": "Nous écrire"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Parlons football",
+    "subtitle": "Une question, une inscription, un partenariat ? Ton message part directement sur WhatsApp du club.",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Ton nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "messagePlaceholder": "Dis-nous tout…",
+      "send": "Envoyer via WhatsApp",
+      "errors": {
+        "name": "Indique ton nom.",
+        "email": "Entre une adresse email valide.",
+        "message": "Écris au moins 10 caractères."
+      },
+      "subjects": {
+        "play": "Jouer au club",
+        "sponsorship": "Sponsoring / Partenariat",
+        "press": "Presse & Médias",
+        "info": "Info générale"
+      }
+    },
+    "whatsapp": {
+      "title": "WhatsApp direct",
+      "text": "Le formulaire ouvre une conversation WhatsApp pré-remplie. Aucune donnée n'est stockée sur le site.",
+      "cta": "Ouvrir WhatsApp"
+    },
+    "info": {
+      "addressTitle": "Stade",
+      "emailTitle": "Email",
+      "instagramTitle": "Instagram",
+      "trainingTitle": "Entraînements",
+      "mapTitle": "Nous trouver",
+      "itinerary": "Itinéraire"
+    },
+    "faq": {
+      "kicker": "Questions fréquentes",
+      "title": "Vous vous demandez peut-être",
+      "items": {
+        "q1": "Comment rejoindre le FC APG 1921 ?",
+        "a1": "Venez à un entraînement au Centre Sportif de Vessy ou écrivez-nous sur WhatsApp : un essai est possible à tout moment de la saison.",
+        "q2": "Quand ont lieu les entraînements ?",
+        "a2": "Mardi et jeudi à 19h30, vendredi à 20h00 au Centre Sportif de Vessy — les horaires à jour figurent sur cette page.",
+        "q3": "Faut-il être portugais pour jouer au club ?",
+        "a3": "Non. Le club est né au sein de la communauté portugaise de Genève et accueille tous les joueurs, quelle que soit leur nationalité.",
+        "q4": "Où et quand jouez-vous vos matchs ?",
+        "a4": "À domicile au Centre Sportif de Vessy, généralement le dimanche matin, dans le championnat de l'Association cantonale genevoise de football (ACGF)."
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Confidentialité (nLPD)",
+      "updated": "Dernière mise à jour : {date}",
+      "s1t": "Données traitées",
+      "s1b": "Ce site ne dépose aucun cookie publicitaire et ne revend aucune donnée. Le formulaire de contact ouvre une conversation WhatsApp pré-remplie : ton message n'est jamais envoyé à nos serveurs. Un simple compteur de visites anonyme, conservé sans adresse IP, sert à mesurer la fréquentation du site.",
+      "s2t": "Services tiers",
+      "s2b": "La météo affichée provient d'Open-Meteo et la carte d'OpenStreetMap. Ces services reçoivent uniquement les données techniques nécessaires à la requête (dont l'adresse IP).",
+      "s3t": "Tes droits",
+      "s3b": "Conformément à la loi suisse sur la protection des données (nLPD), tu peux demander l'accès, la rectification ou la suppression de tes données en écrivant à l'adresse email du club.",
+      "s4t": "Contact",
+      "s4b": "FC Association des Portugais de Genève — contact@fc-apg.ch."
+    },
+    "mentions": {
+      "title": "Mentions légales",
+      "updated": "Dernière mise à jour : {date}",
+      "s1t": "Éditeur",
+      "s1b": "FC Association des Portugais de Genève (FC APG 1921), Genève, Suisse. Association à but non lucratif régie par le Code civil suisse.",
+      "s2t": "Responsabilité",
+      "s2b": "Les actualités régionales sont résumées à partir des sources officielles citées dans chaque article (ACGF, ASF, etc.). Les horaires et informations pratiques sont confirmés par le secrétariat du club.",
+      "s3t": "Propriété intellectuelle",
+      "s3b": "L'écusson, le nom et les couleurs du club sont la propriété de l'association. Toute reproduction nécessite un accord écrit préalable."
+    }
+  },
+  "notFound": {
+    "title": "Hors-jeu !",
+    "text": "Cette page n'existe pas (ou plus). Reviens sur le terrain, le match continue.",
+    "cta": "Retour à l'accueil"
+  },
+  "cookies": {
+    "text": "Seules des mesures d'audience anonymes, jamais de publicité.",
+    "accept": "OK",
+    "decline": "Non merci",
+    "policy": "En savoir plus"
+  },
+  "common": {
+    "soon": "Bientôt",
+    "mockNotice": "Contenu fictif en attente des informations officielles.",
+    "langLabel": "Langue",
+    "close": "Fermer",
+    "loading": "Chargement…",
+    "backToTop": "Retour en haut",
+    "whatsapp": "Écrire au club sur WhatsApp",
+    "whatsappMock": "Numéro WhatsApp pas encore configuré"
+  },
+  "footer": {
+    "tagline": "Une histoire. Une passion. Depuis 1921.",
+    "quickLinks": "Navigation",
+    "languages": "Langues",
+    "followUs": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité (nLPD)"
+  }
+}

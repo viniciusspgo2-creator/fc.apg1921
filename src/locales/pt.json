@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "siteName": "FC APG 1921",
+    "title": "FC Association des Portugais de Genève — Desde 1921",
+    "description": "Site oficial do FC APG 1921. Clube de futebol português em Genebra desde 01.07.1921: treinos, estádio, notícias do futebol genebrino e contacto direto.",
+    "keywords": "clube de futebol Genebra, FC APG 1921, futebol português Genebra, futebol amador Suíça, ACGF, clube desportivo Genebra"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "O clube",
+    "gallery": "Galeria",
+    "blog": "Notícias",
+    "contact": "Contacto"
+  },
+  "shell": {
+    "menuOpen": "Abrir o menu",
+    "menuClose": "Fechar o menu",
+    "join": "Junta-te a nós",
+    "skipToContent": "Ir para o conteúdo principal",
+    "language": "Idioma"
+  },
+  "hero": {
+    "label": "Genebra · Desde 1921",
+    "titleLine1": "UMA HISTÓRIA.",
+    "titleLine2": "UMA PAIXÃO.",
+    "subtitle": "FC Association des Portugais de Genève. Um clube de bairro, três equipas, uma só família — desde 01.07.1921.",
+    "ctaClub": "Descobrir o clube",
+    "ctaContact": "Falar connosco",
+    "scroll": "Deslizar",
+    "imageAlt": "Jogador do FC APG 1921 de camisola amarela, prestes a rematar à baliza"
+  },
+  "match": {
+    "nextMatch": {
+      "label": "Próximo jogo",
+      "kickoff": "Pontapé de saída",
+      "vs": "VS",
+      "home": "Em casa",
+      "away": "Fora",
+      "opponent": "Adversário"
+    }
+  },
+  "weather": {
+    "inGeneva": "Tempo em Genebra",
+    "clear": "Céu limpo",
+    "partly": "Sol com nuvens",
+    "cloudy": "Nublado",
+    "fog": "Nevoeiro",
+    "drizzle": "Chuvisco",
+    "rain": "Chuva",
+    "snow": "Neve",
+    "storm": "Trovoada"
+  },
+  "home": {
+    "intro": {
+      "kicker": "Bem-vindo",
+      "title": "Bem-vindo ao site oficial do APG",
+      "text": "Desde 01.07.1921, uma história é escrita. Gerações, memórias, vitórias, emoções… e uma mesma paixão: o futebol. Hoje, uma nova página começa aqui. Siga-nos para conhecer a vida do clube, as nossas equipas, os nossos jogos, os nossos resultados e todos os momentos que fazem a nossa história.",
+      "signature": "APG — Desde 1921.",
+      "cta": "A nossa história"
+    },
+    "teamPhoto": {
+      "kicker": "A equipa",
+      "title": "Onze em campo, todos atrás",
+      "text": "Equipa principal, veteranos +40 e +50: as cores amarela e azul vestem-se em todas as gerações. As listas oficiais chegam em breve — as fotografias já contam quem somos.",
+      "cta": "Ver a galeria",
+      "imageAlt": "A equipa do FC APG 1921 reunida junto ao emblema"
+    },
+    "players": {
+      "kicker": "O plantel",
+      "title": "Os jogadores do clube",
+      "subtitle": "O rosto do APG 1921: a foto, o número, a posição — a equipa que veste as cores todos os fins de semana.",
+      "join": "Queres jogar?",
+      "placeholderName": "A confirmar",
+      "photoAlt": "Foto de {name}",
+      "positions": {
+        "gk": "Guarda-redes",
+        "df": "Defesa",
+        "mf": "Médio",
+        "fw": "Avançado"
+      },
+      "prevSlide": "Jogadores anteriores",
+      "nextSlide": "Próximos jogadores",
+      "swipeHint": "Deslize"
+    },
+    "practical": {
+      "kicker": "Informações úteis",
+      "title": "Tudo o que precisas de saber",
+      "trainingTitle": "Treinos",
+      "venueTitle": "Estádio",
+      "contactTitle": "Contacto",
+      "joinTitle": "Junta-te ao clube",
+      "joinText": "Queres jogar, ajudar ou apoiar? Aparece no treino ou escreve-nos no WhatsApp.",
+      "note": "Horários confirmados pela secretaria do clube."
+    },
+    "membership": {
+      "title": "Vestir as cores",
+      "text": "Jogador, voluntário, adepto ou parceiro: há um lugar para ti na família APG.",
+      "cta": "Escrever-nos"
+    },
+    "sponsor": {
+      "kicker": "Patrocínio",
+      "title": "Quer ser um apoiador ou patrocinador?",
+      "text": "Quer a sua marca estampada no peito da equipa, junto ao campo ou nas nossas redes? Fale com a nossa equipa e encontre a melhor forma de apoiar o FC APG 1921.",
+      "cta": "Falar com a equipa"
+    },
+    "news": {
+      "label": "Notícias",
+      "title": "O futebol genebrino, semana após semana",
+      "readMore": "Ler mais",
+      "all": "Todas as notícias"
+    }
+  },
+  "about": {
+    "label": "O clube",
+    "title": "Desde 1921, uma família",
+    "subtitle": "Mais de um século de futebol português em Genebra. A história continua — contigo.",
+    "today": {
+      "label": "Hoje",
+      "title": "Um clube vivo, no coração de Genebra",
+      "text1": "O FC APG 1921 faz parte do panorama desportivo genebrino: três equipas sénior — a principal na 4ème ligue ACGF e duas de veteranos +40 e +50 — vestem o camisola amarelo e azul nos campos do cantão.",
+      "text2": "Mas o clube é também os voluntários que preparam o campo, as famílias que ocupam as margens do relvado e os parceiros locais que abraçam as nossas cores. Uma associação sem fins lucrativos, animada pela comunidade portuguesa de Genebra e pelos seus amigos.",
+      "imageAlt": "O emblema do FC APG 1921 diante da equipa"
+    },
+    "valuesTitle": "Os nossos valores",
+    "values": {
+      "tradition": {
+        "title": "Tradição",
+        "text": "Desde 1921, a camisola muda, o espírito fica."
+      },
+      "communaute": {
+        "title": "Comunidade",
+        "text": "Um clube, uma família: do campo à taberna."
+      },
+      "passion": {
+        "title": "Paixão",
+        "text": "Jogamos e apoiamos com o coração."
+      },
+      "respect": {
+        "title": "Respeito",
+        "text": "Árbitros, adversários, parceiros: o fair-play em primeiro lugar."
+      }
+    },
+    "culturalTitle": "Portugal × Genebra",
+    "culturalText": "Nascidos entre duas culturas, jogamos com a saudade portuguesa e a precisão genebrina. O clube liga gerações: netos de portugueses, vizinhos de Vessy, amantes do jogo."
+  },
+  "gallery": {
+    "label": "Galeria",
+    "title": "O clube em imagens",
+    "subtitle": "Golos, defesas, treinos e vida do clube — o ambiente APG em fotografias.",
+    "note": "Fotografias ilustrativas de futebol amador.",
+    "filters": {
+      "all": "Tudo",
+      "match": "Jogos",
+      "training": "Treinos",
+      "community": "Comunidade",
+      "clube": "Clube"
+    },
+    "lightbox": {
+      "open": "Ampliar a imagem",
+      "close": "Fechar",
+      "prev": "Imagem anterior",
+      "next": "Imagem seguinte",
+      "counter": "{current} / {total}"
+    }
+  },
+  "blog": {
+    "label": "Notícias",
+    "title": "Notícias do clube e do futebol regional",
+    "subtitle": "Taça genebrina, campeonatos ACGF, vida do clube: o essencial do futebol de Genebra, com as fontes oficiais.",
+    "tags": {
+      "all": "Tudo",
+      "match-day": "Dia de Jogo",
+      "mercato": "Mercado",
+      "club": "Clube",
+      "communaute": "Comunidade",
+      "regional": "Regional"
+    },
+    "readMore": "Ler na íntegra",
+    "minRead": "{minutes} min de leitura",
+    "backToBlog": "Todas as notícias",
+    "source": "Fonte",
+    "authorBox": "Sobre o autor",
+    "authorBio": "Artigo oficial do clube, redigido pela secretaria do FC APG 1921 — Association des Portugais de Genève, fundado em 1 de julho de 1921.",
+    "publishedOn": "Publicado em",
+    "updatedOn": "atualizado em",
+    "authorCta": "Fale connosco"
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Vamos falar de futebol",
+    "subtitle": "Uma pergunta, uma inscrição, uma parceria? A tua mensagem chega diretamente ao WhatsApp do clube.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O teu nome",
+      "email": "Email",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "messagePlaceholder": "Conta-nos tudo…",
+      "send": "Enviar via WhatsApp",
+      "errors": {
+        "name": "Indica o teu nome.",
+        "email": "Indica um email válido.",
+        "message": "Escreve pelo menos 10 caracteres."
+      },
+      "subjects": {
+        "play": "Jogar no clube",
+        "sponsorship": "Patrocínio / Parceria",
+        "press": "Imprensa & Media",
+        "info": "Informação geral"
+      }
+    },
+    "whatsapp": {
+      "title": "WhatsApp direto",
+      "text": "O formulário abre uma conversa de WhatsApp pré-preenchida. Nenhum dado é guardado no site.",
+      "cta": "Abrir WhatsApp"
+    },
+    "info": {
+      "addressTitle": "Estádio",
+      "emailTitle": "Email",
+      "instagramTitle": "Instagram",
+      "trainingTitle": "Treinos",
+      "mapTitle": "Encontra-nos",
+      "itinerary": "Itinerário"
+    },
+    "faq": {
+      "kicker": "Perguntas frequentes",
+      "title": "Talvez se pergunte",
+      "items": {
+        "q1": "Como entrar no FC APG 1921?",
+        "a1": "Venha a um treino no Centre Sportif de Vessy ou escreva-nos no WhatsApp: é possível fazer um período de experiência em qualquer época da temporada.",
+        "q2": "Quando acontecem os treinos?",
+        "a2": "Terça e quinta às 19h30, sexta às 20h00, no Centre Sportif de Vessy — os horários atualizados estão nesta página.",
+        "q3": "É preciso ser português para jogar?",
+        "a3": "Não. O clube nasceu na comunidade portuguesa de Genebra e recebe jogadores de todas as nacionalidades.",
+        "q4": "Onde e quando são os jogos?",
+        "a4": "Em casa, no Centre Sportif de Vessy, geralmente domingo de manhã, no campeonato da associação regional de futebol de Genebra (ACGF)."
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacidade (nLPD)",
+      "updated": "Última atualização: {date}",
+      "s1t": "Dados tratados",
+      "s1b": "Este site não coloca cookies publicitários e não vende dados. O formulário de contacto abre uma conversa de WhatsApp pré-preenchida: a tua mensagem nunca é enviada aos nossos servidores. Um simples contador de visitas anónimo, guardado sem endereço IP, mede a afluência do site.",
+      "s2t": "Serviços terceiros",
+      "s2b": "O tempo apresentado provém de Open-Meteo e o mapa de OpenStreetMap. Estes serviços recebem apenas os dados técnicos necessários ao pedido (incluindo o endereço IP).",
+      "s3t": "Os teus direitos",
+      "s3b": "Conforme a lei suíça de proteção de dados (nLPD), podes pedir acesso, retificação ou eliminação dos teus dados escrevendo para o email do clube.",
+      "s4t": "Contacto",
+      "s4b": "FC Association des Portugais de Genève — contact@fc-apg.ch."
+    },
+    "mentions": {
+      "title": "Menções legais",
+      "updated": "Última atualização: {date}",
+      "s1t": "Editor",
+      "s1b": "FC Association des Portugais de Genève (FC APG 1921), Genebra, Suíça. Associação sem fins lucrativos regida pelo Código Civil suíço.",
+      "s2t": "Responsabilidade",
+      "s2b": "As notícias regionais são resumidas a partir das fontes oficiais citadas em cada artigo (ACGF, ASF, etc.). Os horários e informações úteis são confirmados pela secretaria do clube.",
+      "s3t": "Propriedade intelectual",
+      "s3b": "O emblema, o nome e as cores do clube são propriedade da associação. Qualquer reprodução exige acordo escrito prévio."
+    }
+  },
+  "notFound": {
+    "title": "Fora de jogo!",
+    "text": "Esta página não existe (ou já não existe). Volta ao campo, o jogo continua.",
+    "cta": "Voltar ao início"
+  },
+  "cookies": {
+    "text": "Apenas medições anónimas de audiência, nunca publicidade.",
+    "accept": "OK",
+    "decline": "Não, obrigado",
+    "policy": "Saber mais"
+  },
+  "common": {
+    "soon": "Brevemente",
+    "mockNotice": "Conteúdo fictício à espera das informações oficiais.",
+    "langLabel": "Idioma",
+    "close": "Fechar",
+    "loading": "A carregar…",
+    "backToTop": "Voltar ao topo",
+    "whatsapp": "Escrever ao clube no WhatsApp",
+    "whatsappMock": "Número de WhatsApp ainda não configurado"
+  },
+  "footer": {
+    "tagline": "Uma história. Uma paixão. Desde 1921.",
+    "quickLinks": "Navegação",
+    "languages": "Idiomas",
+    "followUs": "Segue-nos",
+    "rights": "Todos os direitos reservados.",
+    "legal": "Menções legais",
+    "privacy": "Privacidade (nLPD)"
+  }
+}
